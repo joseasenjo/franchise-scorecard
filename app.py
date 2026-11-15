@@ -110,7 +110,8 @@ with t2:
     kl = k[k.local == local].iloc[0]
     a, b = st.columns([1, 1])
     with a:
-        st.metric(f"{fila.semaforo} Nota global", f"{fila.nota:.1f}", f"puesto {int(fila.ranking)} de {len(sc)}")
+        st.metric(f"{fila.semaforo} Nota global", f"{fila.nota:.1f}")
+        st.caption(f"Puesto {int(fila.ranking)} de {len(sc)} en la red")
         cat_names = [c[4:] for c in cats]
         radar = go.Figure()
         radar.add_trace(go.Scatterpolar(r=[fila["cat_" + c] for c in cat_names] + [fila["cat_" + cat_names[0]]],
