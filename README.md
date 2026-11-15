@@ -4,6 +4,14 @@ Cuadro de mando en Streamlit para comparar los locales de una red de franquicias
 
 **Los datos de la demo son ficticios.**
 
+**Demo en vivo:** https://franchise-scorecard-rxoi4cxunxtjvys5wzkbeh.streamlit.app/
+
+![Ranking y mapa de calor](capturas/scorecard_1_ranking_y_mapa_calor.png)
+
+![Ficha de local y plan de acción](capturas/scorecard_2_ficha_local_y_plan.png)
+
+![Oportunidad en euros](capturas/scorecard_3_oportunidad.png)
+
 ## Qué hace
 
 - **Ranking de la red**: nota global (0-100), semáforo y nota por categoría (Comercial, Rentabilidad, Operaciones, Personas, Cliente), con mapa de calor por KPI.
